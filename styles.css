@@ -1,0 +1,33 @@
+.content {
+  max-width: 1024px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+}
+
+.header-logo {
+  color: white;
+
+}
+.header-links {
+  list-style: none;
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  padding: 0 10px;
+}
+.hero-section {
+  background-color:#1F2937;
+}
+
+.hero-title {
+  margin: 0;
+}
