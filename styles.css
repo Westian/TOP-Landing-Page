@@ -6,6 +6,13 @@ body {
 }
 .blue {
   background-color: #1F2937;
+  height: 500px;
+}
+
+.grey {
+  background-color: #E5E7EB;
+  height: 500px;
+  display: flex;
 }
 
 /* Header section */
@@ -101,4 +108,42 @@ li {
   border-color: #3882F6;
   border-style: solid;
   border-radius: 10px;
+}
+
+
+.paragraph-section {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.paragraph-text {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  text-align: center;
+}
+
+/* Quote section */
+.quote-section {
+  max-width: 900px;
+  margin: auto;
+}
+
+.quote-paragraph {
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+  padding: 50;
+
+}
+
+.signature {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-weight: bolder;
+
 }
