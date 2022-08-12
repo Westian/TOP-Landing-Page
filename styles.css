@@ -80,7 +80,7 @@ li {
 .hero-image {
   width: 50%;
   max-height: 250px;
-  background-color: #E5E7EB;
+  background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,4 +146,52 @@ li {
   font-size: 18px;
   font-weight: bolder;
 
+}
+
+/* Call to action section */
+.calltoaction-section {
+  background-color: #3882F6;
+  max-width: 1024px;
+  height: 150px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.calltoaction-header {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.calltoaction-paragraph {
+  color: white;
+  margin-top: 0;
+}
+
+.calltoaction-button {
+  background-color: #3882F6;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color:#1F2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-paragraph {
+  color: white;
 }
